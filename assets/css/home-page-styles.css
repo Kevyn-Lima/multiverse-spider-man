@@ -56,3 +56,38 @@ body::before{
     position: relative;
     transition: background-color 1s ease-in-out, filter .5s ease-in-out;
 }
+
+.s-card__background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.s-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 1s ease-in-out;
+    position: relative;
+}
+
+.s-card__title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    transition: bottom 1s ease-in-out;
+}
+
+.s-controller{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}

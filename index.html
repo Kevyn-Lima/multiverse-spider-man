@@ -3,30 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/home-page-styles.css">
+    <script defer src="assets/scripts/card-hover-animation.js"></script>
     <title> Spider-Man | Multiverso </title>
 </head>
 <body>
     <nav class="s-menu">
         <ul>
-            <li class="s-menu__item">
-                <a href="/">Página Inicial</a>
-            </li>
-            <li class="s-menu__item">
-                <a href="#">Tobey Maguire</a>
-            </li>
-            <li class="menu__icon">
-                <img src="/assets/images/icons/spider.svg" alt="Icone da aranha Spider-Man">
-            </li>
-            <li class="s-menu__item">
-                <a href="#">Tom Holland</a>
-            </li>
-            <li class="s-menu__item">
-                <a href="#">Andrew Garfield</a>
-            </li>
+            <li class="s-menu__item"><a href="/">Página Inicial</a></li>
+           
+            <li class="s-menu__item"><a href="#">Tobey Maguire</a></li>
+           
+            <li class="menu__icon"><img src="/assets/images/icons/spider.svg" alt="Icone da aranha Spider-Man"></li>
+           
+            <li class="s-menu__item"><a href="#">Tom Holland</a></li>
+           
+            <li class="s-menu__item"><a href="#">Andrew Garfield</a></li>
         </ul>
     </nav>
     <div class="s-container">
-
+        <a href="./pages/andrew-garfield/spiderman1.html" id="spider-man-01" class="s-card">
+            <img src="/assets/images/pic-sm-bg-01.jpg" class="s-card__background">
+            <img class="s-card__image" src="/assets/images/spider-man-03.png" alt="Andrew Garfield">
+            <h2 class="s-card__title">Andrew Garfield</h2>
+        </a>
+        <a href="./pages/tom-holland/spiderman1.html" id="spider-man-02" class="s-card">
+            <img src="/assets/images/pic-sm-bg-02.jpg" class="s-card__background">
+            <img src="/assets/images/spider-man-02.png" alt="Tom Holland" class="s-card__image">
+            <h2 class="s-card__title">Tom Holland</h2>
+        </a>
+        <a href="./pages/tobey-maguire/spiderman1.html" id="spider-man-03" class="s-card">
+            <img src="/assets/images/pic-sm-bg-03.jpg" class="s-card__background">
+            <img src="/assets/images/spider-man-01.png" alt="Tobey Maguire" class="s-card__image">
+            <h2 class="s-card__title">Tobey Miguire</h2>
+        </a>
+    </div> 
+    <div class="s-contoller">
+        <div class="s-controller__button"> 01</div>
+        <div class="s-controller__button s-controller__button--active"> 02</div>
+        <div class="s-controller__button">03</div>
+        <div class="s-controller__line"></div>
     </div>
 </body>
 </html>
