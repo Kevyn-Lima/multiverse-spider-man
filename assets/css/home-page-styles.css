@@ -50,6 +50,7 @@ body::before{
 }
 
 .s-card{
+    display: flex;
     border: 0.5rem solid white;
     width: calc(100% / 3 - 8%);
     height: 70vh;
