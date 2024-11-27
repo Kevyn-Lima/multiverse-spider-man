@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(global.css);
 @import url(components/_navigator.css);
+@import url(components/_pilss.css);
 
 .s-wrapper{
     display: flex;
@@ -36,15 +37,28 @@
     justify-content: flex-start;
 }
 
+.s-wrapper .s-main-content__top .s-logo img{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.s-wrapper .s-main-content__top .s-description{
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 50%;
+    padding: 50%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.s-wrapper .s-main-content__top .s-description .s-description__text p{
+    color: white;
+    line-height: 170%;
+}
+
 .s-wrapper .s-main-content__bottom{
     height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
-
-.s-wrapper .s-main-content__top .s-logo img{
-    margin-top: 50px;
-    margin-left: 0;
-    margin-bottom: 30px;
 }
